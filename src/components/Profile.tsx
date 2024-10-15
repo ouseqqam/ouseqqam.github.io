@@ -23,6 +23,17 @@ const Profile = () => {
             </span>
             <p className='my-2 max-w-xl py-6 font-light'>{HERO_CONTENT}</p>
           </div>
+          {/* download cv button from public with background white */}
+          <div>
+            <a
+              href='/Oussama-SEQQAM-Front.pdf'
+              download='Oussama-SEQQAM-.pdf'
+              className='px-8 py-4 my-4 text-lg font-semibold text-neutral-900 bg-neutral-100 rounded-lg hover:bg-neutral-200'
+            >
+              Download CV
+            </a>
+          </div>
+         
         </div>
         <div className='w-full lg:w-1/2 lg:p-9'>
           <div className='flex justify-center'>

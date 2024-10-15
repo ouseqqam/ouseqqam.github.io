@@ -19,7 +19,7 @@ const Profile = () => {
               text-4xl
               text-transparent'
             >
-              Full Stack Developer
+              Frontend Developer
             </span>
             <p className='my-2 max-w-xl py-6 font-light'>{HERO_CONTENT}</p>
           </div>
@@ -28,7 +28,8 @@ const Profile = () => {
             <a
               href='/Oussama-SEQQAM-Front.pdf'
               download='Oussama-SEQQAM-.pdf'
-              className='px-8 py-4 my-4 text-lg font-semibold text-neutral-900 bg-neutral-100 rounded-lg hover:bg-neutral-200'
+              // add cclass name that have background color doenst exist and border white
+              className=' border border-white text-neutral-900 px-6 py-3 rounded-full font-semibold text-lg hover:bg-neutral-900 text-white'
             >
               Download CV
             </a>
